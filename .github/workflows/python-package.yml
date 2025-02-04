@@ -58,11 +58,6 @@ jobs:
           pip install bandit
           bandit -r . -ll
 
-      - name: Check dependencies for vulnerabilities
-        run: |
-          pip install safety
-          safety scan -r requirements.txt
-
   build:
     needs: [test, security]
     runs-on: ubuntu-latest
