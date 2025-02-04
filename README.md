@@ -1,5 +1,7 @@
 # Markdown to DOCX Converter
 
+[![Markdown to DOCX Converter CI](https://github.com/adryserage/.md-to-.docs/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/adryserage/.md-to-.docs/actions/workflows/python-package.yml)
+
 A Python utility that converts Markdown files to Microsoft Word (DOCX) format. This tool can process both individual files and entire directories, making it perfect for batch converting documentation.
 
 ## Features
